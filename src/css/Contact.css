@@ -1,0 +1,62 @@
+
+.heading {
+  color: black;
+  font-size: 4rem;
+  font-weight: 200;
+  text-align: center;
+}
+.btn {
+  background-color: var(--yellow);
+  font-size: 1.0rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+/* contact */
+.contact {
+margin-top: 70px;
+margin-left: 250px;
+}
+.contact .col-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 6rem;
+}
+.contact .col-container .col h2 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 200;
+  padding-bottom: 6rem;
+}
+.contact .col-container .col input,
+.contact .col-container .col textarea {
+  background-color: var(--light-bg);
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+  margin: 0.2rem 0;
+  resize: vertical;
+}
+.contact .col-container .col p {
+  font-size: 20px;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.contact .col-container .col span {
+  font-size: 18px;
+  color:black;
+  letter-spacing: 0.1rem;
+}
+/* contact */
+
+
+i {
+  color: rgb(204, 198, 190);
+}
