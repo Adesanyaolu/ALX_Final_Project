@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/registration.css';
 import Footer from '../Layout/Footer';
 import Navbar from '../Layout/Navbar';
-import Sidebar from '../Layout/Sidebar';
+// import Sidebar from '../Layout/Sidebar';
 import { Link } from 'react-router-dom';
 
 export default function Registration(){
@@ -32,8 +32,7 @@ export default function Registration(){
       </button>
 
       <div>
-        <p className='label'> Don't have an account? <a href='#' > Sing Up</a></p>
-        < Link to = '/Registration'>Register</Link>
+        <p className='label'> Don't have an account? < Link to = '/Registration'>Sign Up</Link></p>
       </div>
     </form>
     
