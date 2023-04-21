@@ -1,0 +1,43 @@
+.heading {
+  color: black;
+  font-size: 3rem;
+  font-weight: 90px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+/* about */
+.about {
+margin-top: 50px;
+display: flex;
+}
+
+.about .box-container .box .image {
+  height: 800%;
+  overflow: hidden;
+}
+.about .box-container .box .about-image {
+  width: 80%;
+  height: 80%;
+  /* object-fit: cover;   */
+}
+.about .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2px;
+}
+.about .box-container .box p {
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: none;
+}
+/* about */
+@media (max-width: 1020px) {
+.about .box-container {
+  display: white;
+}
+
+}
