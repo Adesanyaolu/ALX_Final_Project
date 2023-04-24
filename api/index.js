@@ -15,8 +15,8 @@ const salt = bcrypt.genSaltSync(10);
 const secret = 'kfksdhlkfnklsdnf';
 
 // connect to mongoose database 
-mongoose.connect('mongodb+srv://sanya:7coy0TDpDNURQDno@cluster0.ntrzlkw.mongodb.net/?retryWrites=true&w=majority')
-// 7coy0TDpDNURQDno
+mongoose.connect('mongodb+srv://sanya4reel:JF7JOdSIHwffyy1H@cluster0.oocifn6.mongodb.net/?retryWrites=true&w=majority')
+// JF7JOdSIHwffyy1H
 app.post('/register', async (req,res) => {
     const {userName, userEmail, password, confirmPassword} = req.body;
     try{
