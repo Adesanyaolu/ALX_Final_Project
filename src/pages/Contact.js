@@ -10,7 +10,7 @@ function Contact() {
     <div><Sidebar /></div>
    {/* <!-- contact section starts --> */}
    <section className="contact" id="contact">
-  <h1 className="heading">Contact <span> Us</span></h1>
+  {/* <h1 className="heading"></h1> */}
   <div className="col-container">
     <div className="col" id="col-background">
       <h2>Get in touch</h2>
@@ -22,23 +22,23 @@ function Contact() {
       </form>
     </div>
     <div className="col">
-      <h2>My contact details</h2>
+      <h2> Contact details</h2>
       <i className="fas fa-envelope"> </i>
-      <p style={{ display: 'inline' }}> email</p> <br />
+      <p> email</p> <br />
       <span className="contact-span">recipee@gmail.com</span>
       <br />
       <br />
       <i className="fas fa-phone-alt"> </i>
-      <p style={{ display: 'inline' }}> phone</p><br />
+      <p> phone</p><br />
       <span className="contact-span">+234 80360 50250</span>
       <br />
       <br />
       <i className="fas fa-map-marker-alt"> </i>
-      <p style={{ display: 'inline' }}> address</p> <br />
+      <p> address</p> <br />
       <span className="contact-span">
-        B4/3 Olomore Housing <br />
-        4th floor Gaga Lara <br />
-        Lagos , Nigeria<br />
+        B4/3 Olomore Housing 
+        <br /> 4th floor Gaga Lara <br />
+        Lagos, Nigeria<br />
       </span>
     </div>
   </div>

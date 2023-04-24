@@ -91,21 +91,25 @@ voice-search-icon{
 
 .preview-title{
   text-align: center;
-  color: rgb(226, 222, 216);
+  color: rgb(255, 255, 255);
   
 }
 .video-preview{
-  background-color: rgb(245, 194, 105);
+  background-color: #4d4e47;
   margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px;
 }
 .thumbnail-row{
-  margin:8px;
+  margin:9px;
   position:relative;
+  
+  
 }
 .thumbnail{
   width: 250px;
-  margin:10px;
-  padding-left: 4px;
+  margin:0px;
   height: 250px;
   border-radius: 8px;
   cursor: pointer;
@@ -118,7 +122,7 @@ voice-search-icon{
   grid-template-columns:1fr 1fr 1fr;
   column-gap:0px;
   row-gap:px;
-  background-color:#d2d2d2;
+  background-color:rgb(241, 241, 241);
 
   
   
@@ -127,13 +131,13 @@ voice-search-icon{
 
 @media (max-width:750px) {
   .video-grid{
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns:1fr 1fr;
   }
 }
 
 @media (min-width:751px) and (max-width:999px){
   .video-grid{
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns:1fr 1fr;
 
   }
 }
@@ -162,7 +166,7 @@ voice-search-icon{
   margin-bottom:10px;
   color: rgb(7, 6, 6);
   text-align: center;
-  background-color: #c4f288;
+  background-color: rgb(235, 242, 188)
   
 
 }

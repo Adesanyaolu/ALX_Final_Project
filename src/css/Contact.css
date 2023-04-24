@@ -1,25 +1,28 @@
 
 .heading {
   color: black;
-  font-size: 4rem;
-  font-weight: 200;
+  font-size: 3rem;
+  font-weight: 150;
   text-align: center;
+  margin-top: 4rem;
 }
 .btn {
-  background-color: var(--yellow);
+  background-color:white;
   font-size: 1.0rem;
   padding: 1rem 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   color: black;
   text-transform: uppercase;
-  margin-right: 1rem;
-  display: inline-block;
+  margin:0.5rem 0rem 5rem 10rem;
+  cursor: pointer;
 }
 
 /* contact */
 .contact {
-margin-top: 70px;
-margin-left: 250px;
+margin-left: 70px;
+width: 100%;
+background-color: rgb(224, 233, 163);
+overflow-x: hidden;
 }
 .contact .col-container {
   display: grid;
@@ -29,34 +32,55 @@ margin-left: 250px;
 .contact .col-container .col h2 {
   font-size: 2.5rem;
   color: black;
-  font-weight: 200;
-  padding-bottom: 6rem;
+  font-weight: 100px;
+  margin-left: 160px;
+  margin-top: 100px;
+  line-height: 3px;
+
 }
 .contact .col-container .col input,
 .contact .col-container .col textarea {
-  background-color: var(--light-bg);
+  background-color:white;
   width: 100%;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   font-size: 1.2rem;
   color: black;
-  margin: 0.2rem 0;
-  resize: vertical;
+  margin: 0.2rem 0 0px 150px;
+  /* resize: vertical; */
+  
 }
 .contact .col-container .col p {
   font-size: 20px;
   color:black;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1px;
+  margin-left: 220px;
+  line-height: 2px;
+  
 }
 .contact .col-container .col span {
   font-size: 18px;
   color:black;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1px;
+  margin-left: 220px;
+  display: block;
+  
 }
 /* contact */
 
 
 i {
   color: rgb(204, 198, 190);
+}
+
+@media (max-width: 783px) {         
+.contact  .col input,
+ .col textarea {
+  max-width: 40%;
+}
+.contact .col-container {
+  gap: 0px;
+  margin-bottom: 30px;
+}
 }
